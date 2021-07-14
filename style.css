@@ -18,6 +18,7 @@ body{
 .border1>a{
     color: #4AD295;
     margin-top: 25px;
+    margin-right: 15px;
 }
 .border1>button{
     background: #4AD295;
@@ -36,7 +37,6 @@ body{
     margin: 20px;
     width: 1440px;
     height: 52px;
-    background: #2B2627;
     font-family: 'Inter', sans-serif;;
     margin-left: 170px;
 
@@ -123,15 +123,19 @@ body{
     color: #fff;
     margin-left: 10px;
     margin-top: 30px;
+    padding-right: 10px;
 }
 .border4>p>span{
     color: #f18900;
+    padding-right: 10px;
 }
 .border4>button{
     width: 49px;
     height: 28px;
     border-radius: 8px;
     margin-top: 35px;
+    margin-right: 15px;
+    
 }
 
 
