@@ -26,7 +26,6 @@ body{
     width: 130px;
     height: 36px;
     border-radius: 8px;
-    margin-top: 17px;
 }
 
 
@@ -39,6 +38,8 @@ body{
     height: 52px;
     font-family: 'Inter', sans-serif;;
     margin-left: 170px;
+    background: #2B2627;
+    
 
 }
 .border2>p{
