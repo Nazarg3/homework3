@@ -1,77 +1,106 @@
 body{
     background-color: #E5E5E5;
 }
-.border1{
+.blue_team_message{
     font-family: 'Inter', sans-serif;;
     width: 1440px;
-    height: 72px;
     display: flex;
     background: #0B2239;
-    margin-left: 170px;
+    margin: 0px auto;
+    font-size: 13px;
+    
 
 }
-.border1>p{
+.blue_team_message>p{
     width: 920px;
     margin-left: 90px;
     color: #fff;
+    
 }
-.border1>a{
+.blue_team_message>a{
     color: #4AD295;
     margin-top: 25px;
     margin-right: 15px;
 }
-.border1>button{
+.blue_team_message>button{
     background: #4AD295;
     color: #fff;
     width: 130px;
     height: 36px;
     border-radius: 8px;
     margin-top: 15px;
+    cursor: pointer;
+    border: none;
 }
 
 
 
 
-.border2{
+.dark_team_message{
     display: flex;
-    margin: 20px;
+    max-width: 100%;
     width: 1440px;
     height: 52px;
-    font-family: 'Inter', sans-serif;;
-    margin-left: 170px;
     background: #2B2627;
-
+    margin-top: 24px 0;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+    margin: 20px auto;
 }
-.border2>p{
-    margin-left: 10px;
+
+.dark_team_message>p>a{
     color: #FFFFFF;
 }
-.border2>img{
-    width: 16px;
-    height: 16px;
-    margin-top: 17px;
-    margin-left: 10px;
+
+.dark_team_message>p{
+    color: #FFFFFF;
+    margin: 16px 20px 16px 8px;
+    
+    
+    
     
 }
-.foto{
-    margin-left: 300px;
-    margin-top: 17px;
+.dark_team_message>img{
+    position: center;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 2px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    
+   
+    
 }
 
+    
+    
+    
 
 
 
 
 
-.border3{
+
+
+
+
+
+
+
+.white_message{
     border-radius: 8px;
     display: flex;
     width: 700px;
-    height: 100px;
     background-color: #fff;
-    margin-left: 600px;
+    margin: 10px auto;
+    
 }
-.border3>img{
+.white_message>img{
     height: 40px;
     width: 40px;
     margin-top: 30px;
@@ -79,15 +108,16 @@ body{
 }
     
 
-.border3>.buttonone{
+.white_message>.buttonone{
     width: 63px;
     height: 28px;
     margin-top: 35px;
     border-radius: 8px;
     border-style: none;
     margin-left: 15px;
+    cursor: pointer;
 }
-.border3>.buttontwo{
+.white_message>.buttontwo{
     background: #EA4C89;
     width: 63px;
     height: 28px;
@@ -95,12 +125,13 @@ body{
     border-radius: 8px;
     border-style: none;
     margin-left: 10px;
+    cursor: pointer;
 }
-.border3>p>span{
-    color: #EA4C89;
+.white_message>p>a{
+    color: #ec2672;
 
 }
-.border3>p{
+.white_message>p{
     margin-top: 30px;
     margin-left: 10px;
     
@@ -110,66 +141,71 @@ body{
 
 
 
-.border4{
+.dark_message_part2{
     display: flex;
     width: 700px;
-    height: 100px;
+   
     background: #26262B;
-    margin: 20px;
-    margin-left: 600px;
+    
+    margin: 20px auto;
     border-radius: 8px;
+    
 
 }
-.border4>p{
+.dark_message_part2>p{
     color: #fff;
     margin-left: 10px;
     margin-top: 30px;
     padding-right: 10px;
+    
 }
-.border4>p>span{
+.dark_message_part2>p>a{
     color: #f18900;
     padding-right: 10px;
 }
-.border4>button{
+.dark_message_part2>button{
     width: 49px;
     height: 28px;
     border-radius: 8px;
     margin-top: 35px;
     margin-right: 15px;
+    border: none;
+    cursor: pointer;
     
 }
 
 
 
 
-.border5{
+.cookie_notice_message{
    font-family: 'Inter', sans-serif;;
    width: 360px;
-   height: 206px;
    border-radius: 10px;
    background: #0B2239;
-   margin-top: 40px;
-   margin-left: 775px;
+   
    color: #E5E5E5;
+   margin: 10px auto;
+   padding:24px;
 }
-.border5>h3{
+.cookie_notice_message>h3{
     font-size: 16px;
     color: #fff;
     font-weight: 500;
     line-height: 20px;
     margin-left: 24px;
-    padding-top: 15px;
+    
 }
-.border5>p{
+.cookie_notice_message>p{
     margin-left: 24px;
     font-size: 14px;
     line-height: 20px;
 }
-.border5>span{
+.cookie_notice_message>a{
     margin-left: 24px;
     font-size: 14px;
+    color: #E5E5E5;
 }
-.border5>button{
+.cookie_notice_message>button{
 margin-left: 40px;
 width: 85px;
 height: 32px;
@@ -177,32 +213,36 @@ background: #09B3AF;
 box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
 border-radius: 6px;
 color: #fff;
+border: none;
+cursor: pointer;
 }
-.border5>p>a{
+.cookie_notice_message>p>a{
     color: #fff;
 }
 
 
 
 
-.border6{
+.cookie_settings_message{
     font-family: 'Inter', sans-serif;;
     width: 360px;
-    height: 170px;
+    
     background: #FFFFFF;
     border-radius: 16px;
-    margin-left: 775px;
+    
     margin-top: 40px;
+    margin: 20px auto;
+    padding: 24px;
 }
-.border6>h3{
+.cookie_settings_message>h3{
     color: #0F181D;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     margin-left: 24px;
-    padding-top: 15px;
+    
 }
-.border6>p{
+.cookie_settings_message>p{
     margin-left: 10px;
     font-size: 14px;
     line-height: 20px;
@@ -215,12 +255,16 @@ color: #fff;
     border-radius: 8px;
     width: 160px;
     height: 32px;
+    border: none;
+    cursor: pointer;
 }
 .btntwo{
     background: #40c1a7;
     border-radius: 8px;
     width: 160px;
     height: 32px;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -228,30 +272,32 @@ color: #fff;
 
 
 
-.border7{
+.cookies_message{
     font-family: 'Inter', sans-serif;;
-    width: 320px;
-    height: 260px;
+    width: 320px; 
     background: #FFFFFF;
     border-radius: 16px;
-    margin-left: 795px;
     margin-top: 40px;
+    margin: 40px auto;
+    padding: 32px;
+
 }
-.border7>h2{
+.cookies_message>h2{
     margin-bottom: 20px;
-    margin-left: 110px;
     color: #15295A;
-    padding-top: 35px;
+    text-align: center;
 }
 
 }
-.border7>p{
+.cookies_message>p{
     margin-top: 55px;
     margin-left: 25px;
     color: #15295A;
+    font-size: 16px;
+    text-align: center;
 
 }
-.border7>button{
+.cookies_message>button{
     margin-left: 100px;
     margin-top: 50px;
     background: #4A7EFF;
@@ -259,40 +305,48 @@ color: #fff;
     border-radius: 10px;
     width: 121px; 
     height: 44px;
+    border: none;
+    cursor: pointer;
 }
 
 
 
 
 
-.border8{
+.privacy_polisy_message{
     font-family: 'Inter', sans-serif;;
     width: 260px;
-    height: 170px;
+    
     background: #FFFFFF;
-    border-radius: 16px;
-    margin-left: 820px;
+    border-radius: none;
+    
     margin-top: 40px;
+    margin: 20px auto;
+    padding: 16px;
 }
 
-.border8>p{
+.privacy_polisy_message>p{
     margin: 20px;
     margin-top: 35px;
-    margin-left: 30px;
-    padding-top: 35px;
+    text-align: center;
+    
    
     
 }
-.border8>span{
+.privacy_polisy_message>a{
     margin-left: 40px;
+    text-decoration: none;
    
 }
-.border8>button{
+.privacy_polisy_message>button{
     background: #6666FF;
     border-radius: 10px;
     width: 64px;
     height: 33px;
     margin-left: 15px;
+    border: none;
+    color: #E5E5E5;
+    cursor: pointer;
 }
 
 
